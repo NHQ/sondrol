@@ -30,90 +30,39 @@ a.link:hover {
 .note {
 	font-size:16px;
 }
-.profile {
-	vertical-align
+
+/* console */
+
+#console {
+	position:absolute;
+	top:0;
+	height:100%;
+	width:667px;
 }
 
-#posts {
-	background-color: rgba(100,100,100,.05);
-	border-radius: 5px;
-	padding:0;
-	width:600px;
-	
-}
-.post {
-	border-bottom: 1px solid #ccc;
-	margin:0;
-	width:600px;
-	height:150px;
-	padding:10px 0;
-
-}
-.post:nth-child(odd) {
-	background-color: rgba(0,0,0,.05);
-}
-.post:nth-child(even){
-	background-color: rgba(200,200,200,.05);
-	
-}
-.picFrame {
-	margin:0 16px 0 10px;
-	float:left;
-	display:inline;
-	height:150px;
-	width:100px;
-}
-.post p {
-}
-img.thumb {
-	display:inline;
-	width:100px;
-	max-height:140px;
-	overflow:hidden;
-}
-.img {
-	margin-right:10px;
-	float:left;
-	display:inline;
+#write, #write:focus {
+	position:absolute;
+	width:100%;
+	height:50%;
+	bottom:300px;
+	box-shadow:none;
+	outline:none;
 }
 
-.txt{	
-	padding:0;
-	margin-left:110px;
-}
-.redness {
-	color: red;
-	font-family:'Courier New';
-	font-size:18px;
-	letter-spacing: 0;
-}
-/* sidebar */
+/* remote */
 
-#sidebar {
-	position:fixed;
-	top:22px;
-	float:right;
+#remote {
+	position:absolute;
+	top:0;
+	right:50%;
 	width:300px;
-
-}
-#next5, #count{
-	background-color: #fff;
-	text-align: center;
-	vertical-align:bottom;
-	margin:0 0 5px;
-	padding:10px 0 15px;
-	width:250px;
-	border:1px solid green;
-	border-radius: 7px;
-	visibility:hidden;
-	box-shadow: inset 0 0 13px 2px #333;
-}
-#next5:hover, #count:hover {
-	cursor: pointer;
+	height:100%;
 }
 
-input[type=checkbox] {
-	margin-right:2ex;
+#dropFile {
+	width:590px;
+	height:600px;
+	margin-top:50px;
 }
 
 /* Isotope CSS */
