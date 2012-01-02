@@ -1,0 +1,12 @@
+$ echo 'rvm 1.9.2@global --create' > .rvmrc
+$ gem list
+$ bundle unstall
+create mongoid.yml http://pastie.org/private/k9wb5cgnkb2npss24aiow
+create deploy.rb http://pastie.org/private/0ho1akr4pcg8rjzh8bevg
+$ mongod --dbpath ~/data/db
+$ r s
+$ git status 
+$ git add
+$ git -am commit "what is this update"
+$ git push
+$ cap deploy
