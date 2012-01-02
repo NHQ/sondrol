@@ -30,7 +30,7 @@ app.configure('production', function(){
 });
 
 // Routes
-
+app.get('/auth', routes.auth)
 app.get('/', routes.index);
 
 app.listen(3000);
